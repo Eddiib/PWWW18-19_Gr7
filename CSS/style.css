@@ -1,0 +1,18 @@
+.meny {
+  font-size: 15px;
+  text-transform: uppercase;
+  background-color: #eee;
+  height: 50px;
+  width: 90%;
+}
+
+.meny-majtas {
+  text-decoration: none !important;
+  padding-left: 30px;
+  padding-top: 15px;
+}
+
+.logo {
+  padding-top: 20px;
+  padding-bottom: 50px;
+}
