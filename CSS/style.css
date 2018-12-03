@@ -1,18 +1,37 @@
 .meny {
   font-size: 15px;
   text-transform: uppercase;
-  background-color: #eee;
+  background-image: linear-gradient(to top, rgba(222, 222, 222, 0.22), rgb(222, 222, 222));
   height: 50px;
-  width: 90%;
+  margin-left: 30px;
+  border: 1px solid #cccccc;
+  margin-right: 30px;
+
 }
 
 .meny-majtas {
   text-decoration: none !important;
-  padding-left: 30px;
   padding-top: 15px;
+  font-size: 12pt;
+}
+
+.meny-majtas a {
+  text-decoration: none;
+  margin-left: 28px;
+  color: #666666;
 }
 
 .logo {
   padding-top: 20px;
   padding-bottom: 50px;
+}
+
+.container {
+  background-color: #eee;
+}
+
+.content{
+  margin-left: 30px;
+  background-color: #fff;
+  margin-right: 30px;
 }
