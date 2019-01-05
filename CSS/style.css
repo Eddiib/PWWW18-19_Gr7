@@ -96,9 +96,33 @@ padding: 0 4px;
   padding-left: 30px;
 }
 
+.row-team {
+  padding-top: 50px;
+  padding-left: 30px;
+  background color: #fff;
+}
 
+.team-details {
+  padding-left: 190px;
+}
 
+.footer {
+  background-color: #eee; 
+}
 
+.col-team {
+    float: left;
+    width: 40%;
+    margin-bottom: 16px;
+    padding: 0 30px;
+}
+
+@media screen and (max-width: 650px) {
+    .col-team {
+        width: 100%;
+        display: block;
+    }
+}
 
 
 
