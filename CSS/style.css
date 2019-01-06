@@ -27,13 +27,11 @@
 }
 
 .container {
-  background-color: #eee;
+  background-color: #fff;
 }
 
 .content{
-  margin-left: 30px;
   background-color: #fff;
-  margin-right: 30px;
 }
 
 .sllajderi{
@@ -65,7 +63,7 @@ padding: 0 4px;
 }
 .col {
     float: left;
-    width: 20.3%;
+    width: 28%;
     margin-bottom: 16px;
     padding: 0 30px;
 }
@@ -78,11 +76,18 @@ padding: 0 4px;
 }
 
 .korniza {
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  border: 15px solid #fff;
+  border-radius: 10px;
+  text-align: center;
 }
 
 .korniza-teksti {
     padding: 0 16px;
+    background-color: #fff;
+}
+
+.korniza-teksti h2{
+    line-height: 50px;
 }
 
 .korniza-teksti::after, .row::after {
@@ -93,7 +98,8 @@ padding: 0 4px;
 
 .row {
   padding-top: 50px;
-  padding-left: 30px;
+  width: 100%;
+  background-color: #eee;
 }
 
 .row-team {
@@ -106,8 +112,26 @@ padding: 0 4px;
   padding-left: 190px;
 }
 
-.footer {
-  background-color: #eee; 
+.team-details h2{
+  line-height: 50px;
+}
+
+.team-details p{
+  padding-top: 10px;
+}
+
+.team-details input[type="submit"] {
+  border: none;
+  background-color: #7e5c88;
+  color: #fff;
+  padding: 3px 10px;
+  font-size: 12px;
+  cursor: pointer;
+  border-radius: 10px;
+}
+
+.team-details input[type="submit"]:hover {
+  background-color: #e44238;
 }
 
 .col-team {
@@ -126,7 +150,49 @@ padding: 0 4px;
 
 
 
+/*footer*/
 
+.pre-footer {
+  width: 100%;
+  height: 255px;
+  padding: 10px;
+  background-color: #eee;
+}  
 
+.clear {
+  clear: both;
+}
 
+.main-footer {
+  float: left;
+  width: 25%
+}
 
+.contact input[type="text"], .contact textarea {
+  border: 1px solid #e0e0e0;
+  padding: 5px;
+  width: 300px;
+}
+
+.contact input[type="text"]:hover, .contact textarea:hover,
+.contact input[type="text"]:focus, .contact textarea:focus {
+  border: 1px solid #e44238;
+}
+
+.contact #message {
+  width: 100%;
+  height: 140px;
+}
+
+.contact input[type="submit"] {
+  border: none;
+  background-color: #b7b7b7;
+  color: #fff;
+  padding: 3px 10px;
+  font-size: 12px;
+  cursor: pointer;
+}
+
+.contact input[type="submit"]:hover {
+  background-color: #e44238;
+}
