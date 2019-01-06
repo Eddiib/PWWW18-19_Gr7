@@ -332,3 +332,11 @@ button.button2 {
 .contact-forma input[type="submit"]:hover {
   background-color: #e44238;
 }
+.contact input [type=“reset”] {
+border: none;
+background-color: #b7b7b7;
+color: #fff;
+padding: 3px 10px;
+font-size: 12px;
+cursor: pointer;
+}
