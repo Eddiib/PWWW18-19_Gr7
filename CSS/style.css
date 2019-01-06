@@ -55,6 +55,7 @@
  float: left;
  max-width: 60%;
  margin-top: 55px;
+ margin-bottom: 55px;
  border: 1px solid #333;
 }
 
@@ -135,6 +136,7 @@
 
 .row {
   padding-top: 50px;
+  padding-bottom: 50px;
   width: 100%;
   background-color: #eee;
 }
